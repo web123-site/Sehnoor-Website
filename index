@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sehnoor | Formal Clothing Brand</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1520975698519-59e675d6e9b5?fit=crop&w=1400&q=80') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sehnoor</h1>
+    <p>Elegance in Every Thread</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#collection">Collection</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>New Formal Wear Collection 2025</h1>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Sehnoor</h2>
+    <p>Sehnoor is a premium formal clothing brand for those who believe in timeless elegance and refined style. Our collection is designed to make you feel powerful, confident, and unforgettable in every room you walk into.</p>
+  </section>
+
+  <section class="section" id="collection">
+    <h2>Our Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?fit=crop&w=800&q=80" alt="Suit 1">
+        <h3>Classic Charcoal Suit</h3>
+        <p>Perfect for boardrooms & evening dinners.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?fit=crop&w=800&q=80" alt="Suit 2">
+        <h3>Navy Power Blazer</h3>
+        <p>Sharp tailoring, modern silhouette.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1618354691394-8da5db82c9e2?fit=crop&w=800&q=80" alt="Suit 3">
+        <h3>Elegant Ivory Shirt</h3>
+        <p>A must-have in every formal wardrobe.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or collaboration idea? Email us at <strong>hello@sehnoor.com</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sehnoor. All rights reserved.
+  </footer>
+
+</body>
+</html>
